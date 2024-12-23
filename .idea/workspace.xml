@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b54c18a0-8b68-41a7-aee7-64b62a628f5d" name="Changes" comment="统一异常处理">
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/exception/ValidationGroups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="b54c18a0-8b68-41a7-aee7-64b62a628f5d" name="Changes" comment="JSR303校验">
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/EditCourseDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-test/xc-content-api.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/xc-content-api.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/AddCourseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/AddCourseDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/xuecheng-plus-system-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/xuecheng-plus-system-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-model/xuecheng-plus-system-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-model/xuecheng-plus-system-model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/xuecheng-plus-system-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/xuecheng-plus-system-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CourseBaseInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CourseBaseInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CourseBaseInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CourseBaseInfoServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,84 +65,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;HTTP Request.xc-content-api | #1 (1).executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.xc-content-api | #1.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.xc-content-api | 创建课程.executor&quot;: &quot;Run&quot;,
-    &quot;HTTP Request.xc-content-api | 查询课程分类.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CourseCategoryServiceTests.testqueryTreeNodes.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.CourseCategoryTests.testCourseCategoryMapper.executor&quot;: &quot;Debug&quot;,
-    &quot;Maven.xuecheng-plus-system [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ContentApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.SystemApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/javaCode/xuecheng-plus/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;rest.client.default.execution.environment&quot;: &quot;dev&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "HTTP Request.xc-content-api | #1 (1).executor": "Run",
+    "HTTP Request.xc-content-api | #1.executor": "Run",
+    "HTTP Request.xc-content-api | 修改课程#2.executor": "Run",
+    "HTTP Request.xc-content-api | 创建课程.executor": "Run",
+    "HTTP Request.xc-content-api | 查询课程分类.executor": "Run",
+    "HTTP Request.xc-content-api | 根据课程id查询课程信息.executor": "Run",
+    "JUnit.CourseCategoryServiceTests.testqueryTreeNodes.executor": "Debug",
+    "JUnit.CourseCategoryTests.testCourseCategoryMapper.executor": "Debug",
+    "Maven.xuecheng-plus-system [clean].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ContentApplication.executor": "Run",
+    "Spring Boot.SystemApplication.executor": "Run",
+    "git-widget-placeholder": "dev",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/javaCode/xuecheng-plus/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "rest.client.default.execution.environment": "dev",
+    "settings.editor.selected.configurable": "Console",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\javaCode\xuecheng-plus\xuecheng-plus-content\xuecheng-plus-content-model\src\main\java\com\xuecheng\content\model\dto" />
       <recent name="E:\javaCode\xuecheng-plus\xuecheng-plus-system\xuecheng-plus-system-service\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SystemApplication">
+  <component name="RunManager" selected="HTTP Request.xc-content-api | 修改课程#2">
     <configuration name="xc-content-api | 查询课程分类" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" index="2" requestIdentifier="查询课程分类" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="xc-content-api | 修改课程#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" index="6" requestIdentifier="修改课程#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="xc-content-api | 根据课程id查询课程信息" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" index="5" requestIdentifier="根据课程id查询课程信息" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="xc-content-api | 创建课程" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" index="3" requestIdentifier="创建课程" runType="Run single request">
       <method v="2" />
-    </configuration>
-    <configuration name="CourseCategoryServiceTests.testqueryTreeNodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xuecheng-plus-content-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuecheng.content.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.content" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.content.CourseCategoryServiceTests" />
-      <option name="METHOD_NAME" value="testqueryTreeNodes" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CourseCategoryTests.testCourseCategoryMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xuecheng-plus-content-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuecheng.content.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.content" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.content.CourseCategoryTests" />
-      <option name="METHOD_NAME" value="testCourseCategoryMapper" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="ContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="xuecheng-plus-content-api" />
@@ -176,19 +147,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="HTTP Request.xc-content-api | 修改课程#2" />
+      <item itemvalue="HTTP Request.xc-content-api | 根据课程id查询课程信息" />
       <item itemvalue="HTTP Request.xc-content-api | 创建课程" />
-      <item itemvalue="JUnit.CourseCategoryServiceTests.testqueryTreeNodes" />
-      <item itemvalue="JUnit.CourseCategoryTests.testCourseCategoryMapper" />
       <item itemvalue="Spring Boot.SystemApplication" />
       <item itemvalue="Spring Boot.ContentApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SystemApplication" />
+        <item itemvalue="HTTP Request.xc-content-api | 修改课程#2" />
         <item itemvalue="Spring Boot.ContentApplication" />
+        <item itemvalue="HTTP Request.xc-content-api | 根据课程id查询课程信息" />
+        <item itemvalue="Spring Boot.SystemApplication" />
         <item itemvalue="HTTP Request.xc-content-api | 创建课程" />
-        <item itemvalue="JUnit.CourseCategoryServiceTests.testqueryTreeNodes" />
-        <item itemvalue="JUnit.CourseCategoryTests.testCourseCategoryMapper" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +181,7 @@
       <updated>1734936923307</updated>
       <workItem from="1734936924430" duration="1601000" />
       <workItem from="1734939279129" duration="13414000" />
-      <workItem from="1734954866204" duration="1144000" />
+      <workItem from="1734954866204" duration="2962000" />
     </task>
     <task id="LOCAL-00001" summary="接口测试">
       <option name="closed" value="true" />
@@ -252,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734954288156</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="JSR303校验">
+      <option name="closed" value="true" />
+      <created>1734956074124</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734956074124</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +242,8 @@
     <MESSAGE value="解决跨域问题" />
     <MESSAGE value="新增课程接口实现" />
     <MESSAGE value="统一异常处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="统一异常处理" />
+    <MESSAGE value="JSR303校验" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSR303校验" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
