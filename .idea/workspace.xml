@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b54c18a0-8b68-41a7-aee7-64b62a628f5d" name="Changes" comment="解决跨域问题">
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/AddCourseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/CourseBaseInfoDto.java" afterDir="false" />
+    <list default="true" id="b54c18a0-8b68-41a7-aee7-64b62a628f5d" name="Changes" comment="新增课程接口实现">
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/exception/CommonError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/exception/RestErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/exception/XueChengPlusException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-test/xc-content-api.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/xc-content-api.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CourseBaseInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CourseBaseInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CourseBaseInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CourseBaseInfoServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +107,7 @@
       <recent name="E:\javaCode\xuecheng-plus\xuecheng-plus-system\xuecheng-plus-system-service\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="HTTP Request.xc-content-api | 创建课程">
+  <component name="RunManager" selected="Spring Boot.ContentApplication">
     <configuration name="xc-content-api | 创建课程" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" index="3" requestIdentifier="创建课程" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -167,8 +168,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.xc-content-api | 创建课程" />
         <item itemvalue="Spring Boot.ContentApplication" />
+        <item itemvalue="HTTP Request.xc-content-api | 创建课程" />
         <item itemvalue="HTTP Request.xc-content-api | 查询课程分类" />
         <item itemvalue="JUnit.CourseCategoryServiceTests.testqueryTreeNodes" />
         <item itemvalue="JUnit.CourseCategoryTests.testCourseCategoryMapper" />
@@ -192,7 +193,7 @@
       <option name="presentableId" value="Default" />
       <updated>1734936923307</updated>
       <workItem from="1734936924430" duration="1601000" />
-      <workItem from="1734939279129" duration="8395000" />
+      <workItem from="1734939279129" duration="13041000" />
     </task>
     <task id="LOCAL-00001" summary="接口测试">
       <option name="closed" value="true" />
@@ -218,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734945443236</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增课程接口实现">
+      <option name="closed" value="true" />
+      <created>1734947873478</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734947873478</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +236,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="接口测试" />
     <MESSAGE value="解决跨域问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决跨域问题" />
+    <MESSAGE value="新增课程接口实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增课程接口实现" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
