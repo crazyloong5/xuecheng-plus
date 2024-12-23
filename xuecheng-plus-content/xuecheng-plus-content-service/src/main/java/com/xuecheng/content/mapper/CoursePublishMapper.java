@@ -1,7 +1,8 @@
-package com.xuecheng.mapper;
+package com.xuecheng.content.mapper;
 
-import com.xuecheng.model.po.CoursePublish;
+
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.xuecheng.content.model.po.CoursePublish;
 
 /**
  * <p>

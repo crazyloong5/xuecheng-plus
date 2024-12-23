@@ -18,8 +18,8 @@ import lombok.ToString;
 @NoArgsConstructor
 @ToString
 public class PageParams {
-  @ApiModelProperty("当前页码")
+  @ApiModelProperty(value = "当前页码", example = "1")
   private Long pageNo = 1L;
-  @ApiModelProperty("每页记录数默认值")
+  @ApiModelProperty(value = "每页记录数默认值", example = "30")
   private Long pageSize =30L;
 }
